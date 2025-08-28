@@ -1,0 +1,109 @@
+@media (max-width:1115px){
+#skills .container .skill-cards{
+  width: 80%;
+}
+}
+
+
+@media (max-width:992px) {
+     #about .container{
+        flex-direction: column;
+        gap:30px;
+     }
+     #about .container>div{
+        width: 100% !important;
+     }
+     #about h4{
+    text-align: center;
+    font-size: 24px;
+     }
+     #about .container>div:first-child img{
+     width: 50%;
+
+   }
+   #projects .project-cards .project-card{
+   width: 47%;
+
+}
+     
+}
+
+@media(max-width:768px){
+    .menu-toggle{
+      display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap:3px;
+    }
+    .menu-toggle span{
+        background-color: #fff;
+        height: 2px;
+        display: inline-block;
+    }
+    .menu-toggle span:first-child{
+        width: 30px;
+    }
+    .menu-toggle span:nth-child(2){
+        width: 25px;
+    }
+     .menu-toggle span:last-child{
+        width: 20px;
+    }
+    nav{
+        position:relative;
+
+    }
+    .nav-links{
+       position: absolute;
+        top: calc(100% + 35px);
+        flex-direction: column;
+        background-color: #000;
+        padding: 15px;
+        right: -20px;
+        display: none;
+    }
+    .nav-links:before{
+        content: '';
+        border: 15px solid #000;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        position: absolute;
+        right: 15px;
+        bottom: 100%;
+    }
+    .nav-links li{
+        padding:0 10px;
+    }
+    .show-ul{
+        display: flex;
+            z-index: 5;
+    }
+    #contact .form-info{
+        flex-direction: column;
+    }
+    #contact .form-info>div{
+        width: 100%;
+    }
+}
+@media(max-width:600px){
+.contact-icons p {
+    width: 100%;
+}
+}
+@media(max-width:560px){
+ #info .container{
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+ }
+ #info .container >div{
+     width: 100%;
+ }
+    #projects .project-cards .project-card{
+   width: 70%;
+}
+#contact form >div:first-child,#contact form >div:nth-child(2){
+    width: 100%;
+}
+}
